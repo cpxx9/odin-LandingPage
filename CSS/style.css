@@ -1,0 +1,144 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+.header {
+   height: 62px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: auto;
+   margin-left: 8%;
+   margin-right: 8%;
+}
+
+.lHead {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.hero {
+   margin: 62px 8%;
+   display: flex;
+   justify-content: space-between;
+   gap: 32px;
+}
+
+a,
+.heroText{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.rHead ul{
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+footer {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.heroHead { 
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.lHero {
+    max-width: 33%;
+}
+
+#heroimg {
+    width: 500px;
+    max-width: 100%;
+}
+
+button {
+    text-align: center;
+    padding: 4px 28px;
+    border-radius: 6px;
+    background-color: #3882F6;
+    color: #eee;
+    border: 0;
+    font-weight: bold;
+    margin: 4px 0;
+}
+
+.informationSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.infoHead {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.infoText {
+    color: #777;
+}
+
+#cardimg {
+    width: 100px;
+    height: 100px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+}
+
+.card {
+    max-width: 200px;
+    justify-content: center;
+}
+
+.quoteSection {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 310px;
+}
+
+.quoteText {
+    text-align: left;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight:lighter
+}
+
+.quoteAuthor {
+    text-align: end;
+}
