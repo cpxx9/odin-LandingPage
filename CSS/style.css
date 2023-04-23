@@ -1,7 +1,12 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+}
+
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -9,6 +14,8 @@ body {
 header {
     background-color: #1F2937;
 }
+
+
 
 .header {
    height: 62px;
@@ -71,7 +78,7 @@ footer {
     max-width: 100%;
 }
 
-button {
+#heroButton {
     text-align: center;
     padding: 4px 28px;
     border-radius: 6px;
@@ -137,10 +144,50 @@ button {
     color: #1F2937;
     font-style: italic;
     opacity: .6;
+    max-height: fit-content;
 }
 
 .quoteAuthor {
     text-align: end;
     font-weight: bold;
     font-size: 18px;
+}
+
+.callToAction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25%;
+    height: 200px;
+    margin: 4% 8%;
+    background-color: #3882F6;
+    border-radius: 6px;
+}
+
+.lAction {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.actionHead {
+    font-weight: bold;
+    color: #eee;
+    font-size: 20px;
+}
+
+.actionText {
+    color: #eee;
+}
+
+#actionButton {
+    border-style: double;
+    color: #eee;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 8px;
+    border-color: #eee;
+    background-color: #3882F6;
+    width: 120px;
+    padding: 6px;
 }
